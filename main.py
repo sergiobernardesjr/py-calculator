@@ -23,13 +23,13 @@ while True:
   if op == '/':
     resultado = split(n1,n2)
 
-  if op == '-':
+  elif op == '-':
     resultado = sub(n1,n2)
 
-  if op == '+':
+  elif op == '+':
     resultado = sum(n1,n2)
 
-  if op == '*':
+  elif op == '*':
     resultado = mult(n1,n2)
 
 
