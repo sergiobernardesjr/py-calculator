@@ -12,13 +12,13 @@ def mult(n1, n2):
 
 while True:
 
-  op = input("Digite a operação desejada ou 'sair' para sair: ").strip().lower()
+  op = input('Digite a operação desejada ou \'sair\' para sair: ').strip().lower()
   
   if op == 'sair':
     break
  
-  n1 = float(input("Digite um número: "))
-  n2 = float(input("Digite outro número: "))
+  n1 = float(input('Digite um número: '))
+  n2 = float(input('Digite outro número: '))
 
   if op == '/':
     resultado = split(n1,n2)
